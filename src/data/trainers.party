@@ -11208,14 +11208,51 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Check Bad Move
+Chingling @ Oran Berry  
+Ability: Levitate  
+Level: 9  
+Tera Type: Psychic  
+IVs: 0 Atk  
+- Confusion  
+- Yawn  
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Teddiursa @ Oran Berry  
+Ability: Quick Feet  
+Level: 9  
+Tera Type: Normal  
+- Fury Cutter  
+- Fury Swipes  
 
-Shroomish
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Eevee @ Oran Berry  
+Ability: Adaptability  
+Level: 9  
+Tera Type: Normal  
+- Tackle  
+- Quick Attack  
+- Charm  
+
+Pikachu @ Light Ball  
+Ability: Static  
+Level: 8  
+Tera Type: Electric  
+- Thunder Shock  
+- Quick Attack  
+- Nuzzle  
+
+Pansage @ Oran Berry  
+Ability: Overgrow  
+Level: 9  
+Tera Type: Grass  
+- Razor Leaf  
+
+Chespin @ Oran Berry  
+Ability: Overgrow  
+Level: 9  
+Tera Type: Grass  
+- Leech Seed  
+- Protect  
+- Bullet Seed  
+
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
