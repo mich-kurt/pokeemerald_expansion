@@ -4590,50 +4590,56 @@ Class: Elite Four
 Pic: Elite Four Sidney
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
+Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer / Force Setup First Turn
 Mugshot: Purple
 
-Mightyena
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Roar
-- Double Edge
-- Sand Attack
-- Crunch
+Shiftry @ Normal Gem  
+Ability: Wind Rider 
+- Explosion  
+- Leaf Blade  
+- Fake Out  
+- Knock Off  
 
-Shiftry
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Torment
-- Double Team
-- Swagger
-- Extrasensory
+Sharpedo @ Water Gem  
+Ability: Speed Boost
+- Protect  
+- Liquidation  
+- Crunch  
+- Close Combat  
 
-Cacturne
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Leech Seed
-- Feint Attack
-- Needle Arm
-- Cotton Spore
+Crawdaunt @ Focus Sash  
+Ability: Adaptability 
+- Knock Off  
+- Aqua Jet  
+- Crabhammer  
+- Dragon Dance  
 
-Crawdaunt
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Surf
-- Swords Dance
-- Strength
-- Facade
+Cacturne @ Grass Gem  
+Ability: Water Absorb
+- Needle Arm  
+- Sucker Punch  
+- Swords Dance  
+- Drain Punch  
 
-Absol @ Sitrus Berry
-Level: 49
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rock Slide
-- Swords Dance
-- Slash
+Mightyena @ Dark Gem  
+Ability: Intimidate 
+- Crunch  
+- Sucker Punch  
+- Fire Fang  
+- Ice Fang  
+
+Absol @ Absolite  
+Ability: Super Luck 
+- Close Combat  
+- Knock Off  
+- Double Team  
+- Play Rough  
+
+
+
+
 
 === TRAINER_PHOEBE ===
 Name: PHOEBE
@@ -4641,50 +4647,58 @@ Class: Elite Four
 Pic: Elite Four Phoebe
 Gender: Female
 Music: Elite Four
-Items: Full Restore / Full Restore
+Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 Mugshot: Green
 
-Dusclops
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
-- Curse
-- Protect
 
-Banette
-Level: 49
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Grudge
-- Will O Wisp
-- Feint Attack
+Sableye @ Leftovers  
+Ability: Prankster
+- Fake Out  
+- Protect  
+- Toxic  
+- Recover  
 
-Sableye
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Double Team
-- Night Shade
-- Feint Attack
+Dusclops @ Eviolite  
+Ability: Pressure 
+IVs: 0 Atk  
+- Double Team  
+- Toxic  
+- Disable  
+- Haze  
 
-Banette
-Level: 49
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Facade
+Banette @ Banettite  
+Ability: Cursed Body
+- Shadow Sneak  
+- Poltergeist  
+- Knock Off  
+- Gunk Shot  
 
-Dusclops @ Sitrus Berry
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Ice Beam
-- Rock Slide
-- Earthquake
+Dusknoir @ Ghost Gem  
+Ability: Pressure  
+- Ice Punch  
+- Shadow Punch  
+- Thunder Punch  
+- Fire Punch  
+
+Banette @ Life Orb  
+Ability: Cursed Body  
+- Knock Off  
+- Swords Dance  
+- Thunder Wave  
+- Poltergeist  
+
+Shedinja @ Heavy-Duty Boots  
+Ability: Wonder Guard
+- Swords Dance  
+- Shadow Sneak  
+- X-Scissor  
+- Shadow Claw  
+
+
+
+
 
 === TRAINER_GLACIA ===
 Name: GLACIA
@@ -4692,50 +4706,60 @@ Class: Elite Four
 Pic: Elite Four Glacia
 Gender: Female
 Music: Elite Four
-Items: Full Restore / Full Restore
+Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 Mugshot: Pink
 
-Sealeo
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Encore
-- Body Slam
-- Hail
-- Ice Ball
+Froslass (F) @ Light Clay  
+Ability: Snow Cloak 
+IVs: 0 Atk  
+- Aurora Veil  
+- Blizzard  
+- Shadow Ball  
+- Thunder Wave  
 
-Glalie
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Crunch
-- Icy Wind
-- Ice Beam
+Walrein @ Leftovers  
+Ability: Ice Body  
+IVs: 0 Atk  
+- Frost Breath  
+- Surf  
+- Signal Beam  
+- Yawn  
 
-Sealeo
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Attract
-- Double Edge
-- Hail
-- Blizzard
+Glalie @ Glalitite  
+Ability: Inner Focus
+- Double-Edge  
+- Earthquake  
+- Ice Shard  
+- Trailblaze  
 
-Glalie
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Explosion
-- Hail
-- Ice Beam
+Regice @ Sitrus Berry  
+Ability: Ice Body 
+IVs: 0 Atk  
+- Blizzard  
+- Counter  
+- Focus Blast  
+- Aurora Veil  
 
-Walrein @ Sitrus Berry
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Body Slam
-- Ice Beam
-- Sheer Cold
+Glalie @ Ice Gem  
+Ability: Moody  
+- Protect  
+- Blizzard  
+- Icicle Crash  
+- Substitute  
+
+Froslass (F) @ Bright Powder  
+Ability: Snow Cloak  
+IVs: 0 Atk  
+- Double Team  
+- Thunderbolt  
+- Blizzard  
+- Shadow Ball  
+
+
+
+
 
 === TRAINER_DRAKE ===
 Name: DRAKE
@@ -4743,50 +4767,58 @@ Class: Elite Four
 Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
+Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 Mugshot: Blue
 
-Shelgon
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Rock Tomb
-- Dragon Claw
-- Protect
-- Double Edge
+Latias (F) @ Focus Sash 
+Ability: Levitate
+IVs: 0 Atk  
+- Shadow Ball  
+- Draco Meteor  
+- Thunderbolt  
+- Mist Ball  
 
-Altaria
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Edge
-- Dragon Breath
-- Dragon Dance
-- Aerial Ace
+Latios (M) @ Soul Dew  
+Ability: Levitate  
+IVs: 0 Atk  
+- Draco Meteor  
+- Ice Beam  
+- Energy Ball  
+- Luster Purge  
 
-Kingdra
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Smokescreen
-- Dragon Dance
-- Surf
-- Body Slam
+Salamence @ Dragon Gem  
+Ability: Intimidate  
+- Draco Meteor  
+- Dragon Dance  
+- Dragon Claw  
+- Rock Slide  
 
-Flygon
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flamethrower
-- Crunch
-- Dragon Breath
-- Earthquake
+Rayquaza @ Life Orb  
+Ability: Air Lock  
+- Dragon Ascent  
+- Extreme Speed  
+- Draco Meteor  
+- Earthquake  
 
-Salamence @ Sitrus Berry
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Dragon Claw
-- Rock Slide
-- Crunch
+Kingdra @ Water Gem  
+Ability: Sniper  
+- Dragon Dance  
+- Draco Meteor  
+- Wave Crash  
+- Flip Turn  
+
+Flygon @ Ground Gem  
+Ability: Levitate 
+- Earthquake  
+- U-turn  
+- Power-Up Punch  
+- Draco Meteor  
+
+
+
+
 
 === TRAINER_ROXANNE_1 ===
 Name: ROXANNE
@@ -4794,33 +4826,57 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Potion / Potion
+Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Armaldo @ Sitrus Berry  
+Ability: Battle Armor
+- Stealth Rock  
+- Toxic  
+- Swords Dance  
+- Knock Off  
 
-Nosepass @ Oran Berry
-Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
-- Rock Tomb
+Probopass @ Fighting Gem  
+Ability: Sturdy  
+- Explosion  
+- Body Press  
+- Iron Defense  
+- Stealth Rock  
+
+Aggron @ Air Balloon  
+Ability: Sturdy   
+- Iron Defense  
+- Body Press  
+- Autotomize  
+- Head Smash  
+
+Golem @ Rock Gem  
+Ability: Sturdy  
+- Stone Edge  
+- Earthquake  
+- Power-Up Punch  
+- Heavy Slam  
+
+Cradily @ Grass Gem  
+Ability: Storm Drain
+IVs: 0 Atk  
+- Giga Drain  
+- Protect  
+- Leech Seed  
+- Recover  
+
+Regirock @ Leftovers  
+Ability: Clear Body 
+- Curse  
+- Drain Punch  
+- Stone Edge  
+- Earthquake  
+
+ 
+
+
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -4828,33 +4884,60 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
+Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 
-Machop
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
-- Bulk Up
+Medicham @ Medichamite  
+Ability: Pure Power  
+- Fake Out  
+- Close Combat  
+- Bullet Punch  
+- Psycho Cut  
 
-Meditite
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
-- Reflect
-- Bulk Up
 
-Makuhita @ Sitrus Berry
-Level: 19
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
-- Vital Throw
-- Reversal
-- Bulk Up
+Machamp @ Fighting Gem  
+Ability: No Guard  
+- Stone Edge  
+- Dynamic Punch  
+- Power-Up Punch  
+- Detect  
+
+
+Heracross @ Life Orb  
+Ability: Moxie
+- Pin Missile  
+- Close Combat  
+- Bullet Seed  
+- Knock Off  
+
+
+Blaziken @ Focus Sash  
+Ability: Speed Boost
+- Protect  
+- Flare Blitz  
+- Brave Bird  
+- Close Combat  
+
+
+Breloom @ Toxic Orb  
+Ability: Poison Heal  
+Tera Type: Grass  
+- Spore  
+- Mach Punch  
+- Drain Punch  
+- Seed Bomb  
+
+Hariyama @ Flame Orb  
+Ability: Guts  
+Tera Type: Fighting  
+- Fake Out  
+- Knock Off  
+- Drain Punch  
+- Bulk Up  
+
+
+
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
@@ -4862,41 +4945,67 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
+Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 
-Voltorb
-Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
-- Self Destruct
-- Shock Wave
+Magnezone @ Air Balloon  
+Ability: Sturdy  
+IVs: 0 Atk  
+- Volt Switch  
+- Thunderbolt  
+- Flash Cannon  
+- Light Screen  
 
-Electrike
-Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Leer
-- Quick Attack
-- Howl
 
-Magneton
-Level: 22
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Supersonic
-- Shock Wave
-- Thunder Wave
-- Sonic Boom
+Manectric @ Manectite  
+Ability: Static  
+IVs: 0 Atk  
+- Flamethrower  
+- Volt Switch  
+- Thunderbolt  
+- Hyper Voice  
 
-Manectric @ Sitrus Berry
-Level: 24
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Quick Attack
-- Thunder Wave
-- Shock Wave
-- Howl
+
+Raichu @ Grass Gem  
+Ability: Static  
+- Fake Out  
+- Thunderbolt  
+- Grass Knot  
+- Nasty Plot  
+
+
+Electrode  @ Electric Gem
+Ability: Aftermath  
+IVs: 0 Atk  
+- Volt Switch  
+- Thunderbolt  
+- Thunder Wave  
+- Electroweb  
+
+Lanturn @ Leftovers  
+Ability: Volt Absorb  
+Tera Type: Water  
+IVs: 0 Atk  
+- Scald  
+- Thunderbolt  
+- Ice Beam  
+- Volt Switch  
+
+Plusle @ Focus Sash  
+Ability: Lightning Rod  
+Tera Type: Electric  
+IVs: 0 Atk  
+- Volt Switch  
+- Wish  
+- Grass Knot  
+- Super Fang  
+
+
+
+
+
+
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -4904,41 +5013,65 @@ Class: Leader
 Pic: Leader Flannery
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
+Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 
-Numel
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Take Down
-- Magnitude
-- Sunny Day
+Ninetales @ Focus Sash  
+Ability: Drought  
+Tera Type: Fire  
+IVs: 0 Atk  
+- Energy Ball  
+- Flamethrower  
+- Psyshock  
+- Nasty Plot  
 
-Slugma
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Smog
-- Light Screen
-- Sunny Day
 
-Camerupt
-Level: 26
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Tackle
-- Sunny Day
-- Attract
+Blaziken @ Blazikenite  
+Ability: Speed Boost  
+Tera Type: Fire  
+- Protect  
+- Swords Dance  
+- Close Combat  
+- Flare Blitz  
 
-Torkoal @ White Herb
-Level: 29
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Sunny Day
-- Body Slam
-- Attract
+Torkoal @ Eject Pack  
+Ability: Drought  
+Tera Type: Fire  
+IVs: 0 Atk  
+- Overheat  
+- Solar Beam  
+- Weather Ball  
+- Clear Smog  
+
+Camerupt @ Fire Gem  
+Ability: Solid Rock  
+Tera Type: Fire  
+IVs: 0 Atk  
+- Heat Wave  
+- Earth Power  
+- Will-O-Wisp  
+- Solar Beam  
+
+
+Magcargo @ Shuca Berry  
+Ability: Flame Body  
+Tera Type: Fire  
+IVs: 0 Atk  
+- Shell Smash  
+- Flamethrower  
+- Earth Power  
+- Power Gem  
+
+Groudon @ Red Orb  
+Ability: Drought  
+Tera Type: Ground  
+- Precipice Blades  
+- Solar Beam  
+- Bulk Up  
+- Heat Crash  
+
+
 
 === TRAINER_NORMAN_1 ===
 Name: NORMAN
@@ -4950,37 +5083,53 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Spinda
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Teeter Dance
-- Psybeam
-- Facade
-- Encore
+Swellow @ Flame Orb  
+Ability: Guts  
+Tera Type: Normal  
+- Protect  
+- Brave Bird  
+- Facade  
+- U-turn  
 
-Vigoroth
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Facade
-- Encore
-- Feint Attack
+Zangoose @ Toxic Orb  
+Ability: Toxic Boost  
+Tera Type: Normal  
+- Protect  
+- Close Combat  
+- Double-Edge  
+- Knock Off  
 
-Linoone
-Level: 29
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
-- Headbutt
+Farigiraf @ Throat Spray  
+Ability: Sap Sipper  
+Tera Type: Normal  
+IVs: 0 Atk  
+- Psychic  
+- Hyper Voice  
+- Foul Play  
+- Thunderbolt  
 
-Slaking @ Sitrus Berry
-Level: 31
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
-- Yawn
-- Facade
-- Feint Attack
+Dodrio @ Normal Gem  
+Ability: Early Bird  
+Tera Type: Normal  
+- Double-Edge  
+- Swords Dance  
+- Knock Off  
+
+Delcatty @ Silk Scarf  
+Ability: Normalize  
+Tera Type: Normal  
+- Fake Out  
+- Last Resort  
+
+Slaking @ Assault Vest  
+Ability: Truant  
+Tera Type: Normal  
+- Double-Edge  
+- Earthquake  
+- Gunk Shot  
+- Hammer Arm  
+
+
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
@@ -6246,58 +6395,65 @@ Class: Champion
 Pic: Champion Wallace
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
+Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 Mugshot: Yellow
 
-Wailord
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rain Dance
-- Water Spout
-- Double Edge
-- Blizzard
+Swampert @ Swampertite  
+Ability: Torrent 
+- Liquidation  
+- Earthquake  
+- Bulk Up  
+- Flip Turn  
 
-Tentacruel
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Toxic
-- Hydro Pump
-- Sludge Bomb
-- Ice Beam
 
-Ludicolo
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Surf
-- Leech Seed
-- Double Team
+Kingdra @ Water Gem  
+Ability: Swift Swim 
+- Wave Crash  
+- Dragon Dance  
+- Draco Meteor  
+- Flip Turn  
 
-Whiscash
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Surf
-- Amnesia
-- Hyper Beam
 
-Gyarados
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dragon Dance
-- Earthquake
-- Hyper Beam
-- Surf
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+Tera Type: Water  
+IVs: 0 Atk  
+- Scald  
+- Recover  
+- Alluring Voice  
+- Ice Beam  
 
-Milotic @ Sitrus Berry
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Recover
-- Surf
-- Ice Beam
-- Toxic
+Starmie @ Life Orb  
+Ability: Analytic  
+Tera Type: Water  
+IVs: 0 Atk  
+- Scald  
+- Ice Beam  
+- Psychic  
+- Thunderbolt  
+
+Ludicolo @ Grass Gem  
+Ability: Swift Swim  
+Tera Type: Water  
+- Giga Drain  
+- Weather Ball  
+- Ice Beam  
+- Fake Out  
+
+Kyogre @ Blue Orb  
+Ability: Drizzle  
+IVs: 0 Atk  
+- Origin Pulse  
+- Ice Beam  
+- Thunder  
+- Calm Mind  
+
+
+
+
+
 
 === TRAINER_ANDREW ===
 Name: ANDREW
@@ -9730,7 +9886,7 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Torchic
+Happiny
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 

@@ -629,7 +629,7 @@ static const u8 sDebugText_PokemonShiny[] =             _("Shiny:{CLEAR_TO 90}\n
 static const u8 sDebugText_PokemonNature[] =            _("Nature ID: {STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
 static const u8 sDebugText_PokemonAbility[] =           _("Ability Num: {STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
 static const u8 sDebugText_PokemonIVs[] =               _("All IVs:{CLEAR_TO 90}\n    {STR_VAR_3}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
-static const u8 sDebugText_PokemonEVs[] =               _("All EVs:{CLEAR_TO 90}\n    {STR_VAR_3}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
+//static const u8 sDebugText_PokemonEVs[] =               _("All EVs:{CLEAR_TO 90}\n    {STR_VAR_3}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
 static const u8 sDebugText_IV_HP[] =                    _("IV HP:{CLEAR_TO 90}\n    {STR_VAR_3}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
 static const u8 sDebugText_IV_Attack[] =                _("IV Attack:{CLEAR_TO 90}\n    {STR_VAR_3}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
 static const u8 sDebugText_IV_Defense[] =               _("IV Defense:{CLEAR_TO 90}\n    {STR_VAR_3}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
@@ -2379,10 +2379,21 @@ void BufferExpansionVersion(struct ScriptContext *ctx)
 
 // *******************************
 // Actions Scripts
+
+
 static void DebugAction_Util_Script_1(u8 taskId)
 {
+    SetWarpDestination(MAP_GROUP(EVER_GRANDE_CITY_GLACIAS_ROOM),
+                       MAP_NUM(EVER_GRANDE_CITY_GLACIAS_ROOM),
+                       WARP_ID_NONE,
+                       -1, -1);
     Debug_DestroyMenu_Full_Script(taskId, Debug_EventScript_Script_1);
+    DoWarp();
 }
+
+
+
+
 
 static void DebugAction_Util_Script_2(u8 taskId)
 {
@@ -4107,38 +4118,144 @@ static void DebugAction_OpenPCBagFillMenu(u8 taskId)
     Debug_ShowMenu(DebugTask_HandleMenuInput_PCBag_Fill, sDebugMenu_ListTemplate_PCBag_Fill);
 }
 
-static void DebugAction_PCBag_Fill_PCBoxes_Fast(u8 taskId) //Credit: Sierraffinity
+
+#define MAX_FILTERED_SPECIES 500
+#define NUM_TO_GENERATE 10
+
+#include "battle_ai_util.h"
+
+
+#include "global.h"
+#include "constants/species.h"
+
+u8 GetPokemonGeneration(u16 species)
 {
-    int boxId, boxPosition;
-    u32 personality;
+    // --- Generation 1 (Kanto) ---
+    #if P_GEN_1_POKEMON
+    if (species >= SPECIES_BULBASAUR && species <= SPECIES_MEW)
+        return 1;
+    #endif
+
+    // --- Generation 2 (Johto) ---
+    #if P_GEN_2_POKEMON
+    if (species >= SPECIES_CHIKORITA && species <= SPECIES_CELEBI)
+        return 2;
+    #endif
+
+    // --- Generation 3 (Hoenn) ---
+    #if P_GEN_3_POKEMON
+    if (species >= SPECIES_TREECKO && species <= SPECIES_DEOXYS)
+        return 3;
+    #endif
+
+    // --- Generation 4 (Sinnoh) ---
+    #if P_GEN_4_POKEMON
+    if (species >= SPECIES_TURTWIG && species <= SPECIES_ARCEUS)
+        return 4;
+    #endif
+
+    // --- Generation 5 (Unova) ---
+    #if P_GEN_5_POKEMON
+    if (species >= SPECIES_VICTINI && species <= SPECIES_GENESECT)
+        return 5;
+    #endif
+
+    // --- Generation 6 (Kalos) ---
+    #if P_GEN_6_POKEMON
+    if (species >= SPECIES_CHESPIN && species <= SPECIES_VOLCANION)
+        return 6;
+    #endif
+
+    // --- Generation 7 (Alola) ---
+    #if P_GEN_7_POKEMON
+    if (species >= SPECIES_ROWLET && species <= SPECIES_MELMETAL)
+        return 7;
+    #endif
+
+    // --- Generation 8 (Galar/Hisui) ---
+    #if P_GEN_8_POKEMON
+    if (species >= SPECIES_GROOKEY && species <= SPECIES_ENAMORUS)
+        return 8;
+    #endif
+
+    // --- Generation 9 (Paldea) ---
+    #if P_GEN_9_POKEMON
+    if (species >= SPECIES_SPRIGATITO && species <= SPECIES_PECHARUNT)
+        return 9;
+    #endif
+
+    // Fallback (for EGG, NONE, etc.)
+    return 0;
+}
+
+
+
+
+static bool8 IsSpecialMon(u16 species)
+{
+    return gSpeciesInfo[species].isLegendary 
+    || gSpeciesInfo[species].isMythical 
+    || gSpeciesInfo[species].isUltraBeast || gSpeciesInfo[species].isMegaEvolution
+    || gSpeciesInfo[species].isUltraBurst || gSpeciesInfo[species].isGigantamax || gSpeciesInfo[species].isPrimalReversion ||
+    gSpeciesInfo[species].isTotem  ;
+}
+
+
+static void DebugAction_PCBag_Fill_PCBoxes_Fast(u8 taskId)
+{
     struct BoxPokemon boxMon;
-    u16 species = SPECIES_BULBASAUR;
+    u16 filteredSpecies[MAX_FILTERED_SPECIES];
+    int filteredCount = 0;
     u8 speciesName[POKEMON_NAME_LENGTH + 1];
 
-    personality = Random32();
-
-    CreateBoxMon(&boxMon, species, 100, USE_RANDOM_IVS, FALSE, personality, OT_ID_PLAYER_ID, 0);
-
-    for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)
+    // Step 1: Build filtered list of strong Pokémon
+    for (u16 species = SPECIES_BULBASAUR; species < NUM_SPECIES; species++)
     {
-        for (boxPosition = 0; boxPosition < IN_BOX_COUNT; boxPosition++, species++)
+        u16 total = GetTotalBaseStat(species);
+
+        if (total > 475 && !IsSpecialMon(species))
         {
-            if (!GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], MON_DATA_SANITY_HAS_SPECIES))
-            {
-                StringCopy(speciesName, GetSpeciesName(species));
-                SetBoxMonData(&boxMon, MON_DATA_NICKNAME, &speciesName);
-                SetBoxMonData(&boxMon, MON_DATA_SPECIES, &species);
-                GiveBoxMonInitialMoveset(&boxMon);
-                gPokemonStoragePtr->boxes[boxId][boxPosition] = boxMon;
-            }
+            if (filteredCount < MAX_FILTERED_SPECIES)
+                filteredSpecies[filteredCount++] = species;
+            else
+                break;
         }
     }
 
-    // Set flag for user convenience
+
+    if (filteredCount == 0)
+    {
+        Debug_DestroyMenu_Full(taskId);
+        ScriptContext_Enable();
+        return;
+    }
+
+    int created = 0;
+    for (int boxPosition = 0; boxPosition < IN_BOX_COUNT && created < NUM_TO_GENERATE; boxPosition++)
+    {
+        if (!GetBoxMonData(&gPokemonStoragePtr->boxes[0][boxPosition], MON_DATA_SANITY_HAS_SPECIES))
+        {
+            u16 species = filteredSpecies[Random32() % filteredCount];
+            u32 personality = Random32();
+
+            CreateBoxMon(&boxMon, species, 100, USE_RANDOM_IVS, FALSE, personality, OT_ID_PLAYER_ID, 0);
+
+            StringCopy(speciesName, GetSpeciesName(species));
+            SetBoxMonData(&boxMon, MON_DATA_NICKNAME, &speciesName);
+            SetBoxMonData(&boxMon, MON_DATA_SPECIES, &species);
+            GiveBoxMonInitialMoveset(&boxMon);
+
+            gPokemonStoragePtr->boxes[0][boxPosition] = boxMon;
+            created++;
+        }
+    }
+
     FlagSet(FLAG_SYS_POKEMON_GET);
     Debug_DestroyMenu_Full(taskId);
     ScriptContext_Enable();
 }
+
+
 
 static void DebugAction_PCBag_Fill_PCBoxes_Slow(u8 taskId)
 {
@@ -4182,16 +4299,38 @@ static void DebugAction_PCBag_Fill_PCItemStorage(u8 taskId)
     }
 }
 
+#include "constants/hold_effects.h"
+
+
+extern void ItemUseOutOfBattle_CannotUse(u8 taskId);
+
 static void DebugAction_PCBag_Fill_PocketItems(u8 taskId)
 {
     u16 itemId;
 
     for (itemId = 1; itemId < ITEMS_COUNT; itemId++)
     {
-        if (ItemId_GetPocket(itemId) == POCKET_ITEMS && CheckBagHasSpace(itemId, MAX_BAG_ITEM_CAPACITY))
+        if (gItemsInfo[itemId].pocket == POCKET_ITEMS
+            && (gItemsInfo[itemId].holdEffect == HOLD_EFFECT_GEMS 
+             || gItemsInfo[itemId].holdEffect == HOLD_EFFECT_MEGA_STONE
+             || gItemsInfo[itemId].holdEffect == HOLD_EFFECT_LEFTOVERS
+             || gItemsInfo[itemId].holdEffect == HOLD_EFFECT_ASSAULT_VEST
+             || gItemsInfo[itemId].holdEffect == HOLD_EFFECT_CHOICE_BAND
+             || gItemsInfo[itemId].holdEffect == HOLD_EFFECT_CHOICE_SCARF
+             || gItemsInfo[itemId].holdEffect == HOLD_EFFECT_CHOICE_SPECS
+             || gItemsInfo[itemId].holdEffect == HOLD_EFFECT_LIFE_ORB
+             || gItemsInfo[itemId].holdEffect == HOLD_EFFECT_FOCUS_SASH
+             || itemId == ITEM_ABILITY_CAPSULE 
+             || itemId == ITEM_ABILITY_PATCH
+                                                           )
+            && CheckBagHasSpace(itemId, MAX_BAG_ITEM_CAPACITY))
+        {
             AddBagItem(itemId, MAX_BAG_ITEM_CAPACITY);
+        }
     }
 }
+
+
 
 static void DebugAction_PCBag_Fill_PocketPokeBalls(u8 taskId)
 {
