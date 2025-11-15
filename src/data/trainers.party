@@ -11464,24 +11464,54 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Volbeat @ Oran Berry  
+Ability: Prankster  
+Level: 12  
+Tera Type: Bug  
+IVs: 0 Atk  
+- Swagger  
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kricketune @ Oran Berry  
+Ability: Technician  
+Level: 12  
+Tera Type: Bug  
+- Fury Cutter  
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Illumise @ Oran Berry  
+Ability: Prankster  
+Level: 12  
+Tera Type: Bug  
+IVs: 0 Atk  
+- Attract  
+- Roost  
+- Charm  
+- Charge Beam  
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Vivillon-Modern @ Oran Berry  
+Ability: Friend Guard  
+Tera Type: Bug  
+IVs: 0 Atk  
+- Sleep Powder  
+- Gust  
+
+Scyther @ Oran Berry  
+Ability: Technician  
+Level: 12  
+Tera Type: Bug  
+- Wing Attack  
+- Quick Attack  
+
+Larvesta @ Eviolite  
+Ability: Flame Body  
+Level: 12  
+Tera Type: Bug  
+- Flame Charge  
+- Struggle Bug  
+
+
 
 === TRAINER_JOSE ===
 Name: JOSE
@@ -13169,9 +13199,56 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Horsea @ Water Gem  
+Ability: Sniper  
+Level: 9  
+Tera Type: Water  
+IVs: 0 Atk  
+- Water Pulse  
+- Icy Wind  
+
+Corphish @ Oran Berry  
+Ability: Shell Armor  
+Level: 9  
+Tera Type: Water  
+- Water Gun  
+- Thief  
+- Aqua Jet  
+
+Basculin @ Mystic Water  
+Ability: Adaptability  
+Level: 9  
+Tera Type: Water  
+- Aqua Jet  
+- Water Gun  
+- Ice Fang  
+
+Chewtle @ Oran Berry  
+Ability: Strong Jaw  
+Level: 9  
+Tera Type: Water  
+- Bite  
+- Water Gun  
+- Dragon Tail  
+- Shell Smash  
+
+Wiglett @ Oran Berry  
+Ability: Gooey  
+Level: 8  
+Tera Type: Water  
+IVs: 0 Atk  
+- Mud-Slap  
+- Water Gun  
+- Final Gambit  
+
+Dewpider @ Water Gem  
+Ability: Water Bubble  
+Level: 9  
+Tera Type: Water  
+- Water Gun  
+- Bug Bite  
+- Bite  
+
 
 === TRAINER_HAILEY ===
 Name: HAILEY
