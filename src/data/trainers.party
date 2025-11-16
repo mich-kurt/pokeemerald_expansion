@@ -4889,54 +4889,55 @@ Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 
-Medicham @ Medichamite  
-Ability: Pure Power  
-- Fake Out  
-- Close Combat  
-- Bullet Punch  
-- Psycho Cut  
+Hitmonlee @ Fighting Gem  
+Ability: Unburden  
+Level: 20  
+Tera Type: Fighting  
+- Brick Break  
+- Rock Tomb  
 
-
-Machamp @ Fighting Gem  
-Ability: No Guard  
-- Stone Edge  
-- Dynamic Punch  
-- Power-Up Punch  
-- Detect  
-
-
-Heracross @ Life Orb  
-Ability: Moxie
-- Pin Missile  
-- Close Combat  
-- Bullet Seed  
-- Knock Off  
-
-
-Blaziken @ Focus Sash  
-Ability: Speed Boost
-- Protect  
-- Flare Blitz  
-- Brave Bird  
-- Close Combat  
-
-
-Breloom @ Toxic Orb  
-Ability: Poison Heal  
-Tera Type: Grass  
-- Spore  
-- Mach Punch  
-- Drain Punch  
-- Seed Bomb  
-
-Hariyama @ Flame Orb  
-Ability: Guts  
+Hitmontop @ Normal Gem  
+Ability: Technician  
+Level: 20  
 Tera Type: Fighting  
 - Fake Out  
-- Knock Off  
-- Drain Punch  
-- Bulk Up  
+- Brick Break  
+- Detect  
+- Aerial Ace  
 
+Hitmonchan @ Oran Berry  
+Ability: Iron Fist  
+Level: 20  
+Tera Type: Fighting  
+- Fake Out  
+- Ice Punch  
+- Fire Punch  
+- Thunder Punch  
+
+Kubfu @ Eviolite  
+Ability: Inner Focus  
+Level: 20  
+Tera Type: Fighting  
+- U-turn  
+- Brick Break  
+- Aerial Ace  
+
+Pawmo @ Electric Gem  
+Ability: Volt Absorb  
+Level: 20  
+Tera Type: Electric  
+- Nuzzle  
+- Dig  
+- Thunder Shock  
+- Brick Break  
+
+Heracross @ Heracronite  
+Ability: Swarm  
+Level: 20  
+Tera Type: Bug  
+- Bullet Seed  
+- Pin Missile  
+- Arm Thrust  
 
 
 
