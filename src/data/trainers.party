@@ -4951,60 +4951,61 @@ Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 
-Magnezone @ Air Balloon  
-Ability: Sturdy  
-IVs: 0 Atk  
-- Volt Switch  
-- Thunderbolt  
-- Flash Cannon  
-- Light Screen  
-
-
-Manectric @ Manectite  
-Ability: Static  
-IVs: 0 Atk  
-- Flamethrower  
-- Volt Switch  
-- Thunderbolt  
-- Hyper Voice  
-
-
-Raichu @ Grass Gem  
-Ability: Static  
-- Fake Out  
-- Thunderbolt  
-- Grass Knot  
-- Nasty Plot  
-
-
-Electrode  @ Electric Gem
-Ability: Aftermath  
-IVs: 0 Atk  
-- Volt Switch  
-- Thunderbolt  
-- Thunder Wave  
-- Electroweb  
-
-Lanturn @ Leftovers  
+Jolteon @ Shuca Berry  
 Ability: Volt Absorb  
-Tera Type: Water  
-IVs: 0 Atk  
-- Scald  
-- Thunderbolt  
-- Ice Beam  
-- Volt Switch  
-
-Plusle @ Focus Sash  
-Ability: Lightning Rod  
+Level: 27  
 Tera Type: Electric  
 IVs: 0 Atk  
 - Volt Switch  
-- Wish  
+- Hidden Power [Ice]  
+- Discharge  
+
+Raichu-Alola @ Focus Sash  
+Ability: Surge Surfer  
+Level: 27  
+Tera Type: Electric  
+- Fake Out  
 - Grass Knot  
-- Super Fang  
+- Discharge  
+- Psychic  
 
+Lanturn @ Leftovers  
+Ability: Volt Absorb  
+Level: 27  
+Tera Type: Water  
+IVs: 0 Atk  
+- Thunder Wave  
+- Volt Switch  
+- Bubble Beam  
+- Icy Wind  
 
+Boltund @ Life Orb  
+Ability: Strong Jaw  
+Level: 27  
+Tera Type: Electric  
+- Thunder Fang  
+- Fire Fang  
+- Crunch  
+- Psychic Fangs  
 
+Manectric @ Manectite  
+Ability: Static  
+Level: 27  
+Tera Type: Electric  
+IVs: 0 Atk  
+- Discharge  
+- Volt Switch  
+- Charge Beam  
+- Hidden Power [Ice]  
+
+Regieleki @ Electric Gem  
+Ability: Transistor  
+Level: 27  
+Tera Type: Electric  
+- Ancient Power  
+- Acrobatics  
+- Volt Switch  
+- Electro Ball  
 
 
 
