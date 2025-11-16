@@ -4957,7 +4957,7 @@ Level: 27
 Tera Type: Electric  
 IVs: 0 Atk  
 - Volt Switch  
-- Hidden Power [Ice]  
+- Hidden Power  
 - Discharge  
 
 Raichu-Alola @ Focus Sash  
@@ -4996,7 +4996,7 @@ IVs: 0 Atk
 - Discharge  
 - Volt Switch  
 - Charge Beam  
-- Hidden Power [Ice]  
+- Hidden Power
 
 Regieleki @ Electric Gem  
 Ability: Transistor  
@@ -11211,6 +11211,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Check Bad Move
+
 Chingling @ Oran Berry  
 Ability: Levitate  
 Level: 9  
