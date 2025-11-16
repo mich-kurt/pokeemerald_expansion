@@ -4830,52 +4830,53 @@ Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 
-
-Armaldo @ Sitrus Berry  
-Ability: Battle Armor
+Minior-Indigo @ Flying Gem  
+Ability: Shields Down  
+Level: 15  
 - Stealth Rock  
-- Toxic  
-- Swords Dance  
+- Acrobatics  
+- U-turn  
+- Ancient Power  
+
+Relicanth @ Rindo Berry  
+Ability: Swift Swim  
+Level: 15  
+- Yawn  
+- Aqua Tail  
+- Rock Tomb  
+
+Klawf @ Leftovers  
+Ability: Anger Shell  
+Level: 15  
+- Rock Smash  
+- Trailblaze  
+- Rock Tomb  
 - Knock Off  
 
-Probopass @ Fighting Gem  
-Ability: Sturdy  
-- Explosion  
-- Body Press  
-- Iron Defense  
-- Stealth Rock  
+Solrock @ Fire Gem  
+Ability: Levitate  
+Level: 15  
+- Flare Blitz  
+- Rock Slide  
+- Hypnosis  
+- Morning Sun  
 
-Aggron @ Air Balloon  
-Ability: Sturdy   
-- Iron Defense  
-- Body Press  
-- Autotomize  
-- Head Smash  
+Lunatone @ Fairy Gem  
+Ability: Levitate  
+Level: 15  
+- Moonblast  
+- Moonlight  
+- Hypnosis  
+- Rock Slide  
 
-Golem @ Rock Gem  
-Ability: Sturdy  
-- Stone Edge  
-- Earthquake  
-- Power-Up Punch  
-- Heavy Slam  
-
-Cradily @ Grass Gem  
-Ability: Storm Drain
-IVs: 0 Atk  
-- Giga Drain  
-- Protect  
-- Leech Seed  
-- Recover  
-
-Regirock @ Leftovers  
-Ability: Clear Body 
-- Curse  
-- Drain Punch  
-- Stone Edge  
-- Earthquake  
-
+Regirock @ Lum Berry  
+Ability: Clear Body  
+Level: 15  
+- Bulldoze  
+- Ice Punch  
+- Fire Punch  
+- Rock Tomb  
  
-
 
 
 === TRAINER_BRAWLY_1 ===
