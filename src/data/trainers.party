@@ -5020,59 +5020,62 @@ Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 
-Ninetales @ Focus Sash  
-Ability: Drought  
+Entei @ Fire Gem  
+Ability: Pressure  
+Level: 31  
 Tera Type: Fire  
 IVs: 0 Atk  
-- Energy Ball  
+- Solar Beam  
+- Calm Mind  
 - Flamethrower  
-- Psyshock  
-- Nasty Plot  
+- Scorching Sands  
 
-
-Blaziken @ Blazikenite  
-Ability: Speed Boost  
+Marowak-Alola @ Thick Club  
+Ability: Lightning Rod  
+Level: 31  
 Tera Type: Fire  
-- Protect  
+- Bone Club  
+- Shadow Bone  
+- Flame Charge  
+- Iron Head  
+
+Arcanine-Hisui @ Air Balloon  
+Ability: Intimidate  
+Level: 31  
+Tera Type: Fire  
+- Rock Slide  
+- Extreme Speed  
+- Solar Beam  
+- Temper Flare  
+
+Ogerpon-Hearthflame @ Hearthflame Mask  
+Ability: Mold Breaker  
+Level: 31  
+Tera Type: Fire  
+- Ivy Cudgel  
+- Leech Seed  
+- Horn Leech  
 - Swords Dance  
-- Close Combat  
+
+Ceruledge @ Life Orb  
+Ability: Flash Fire  
+Level: 31  
+Tera Type: Fire  
 - Flare Blitz  
+- Shadow Claw  
+- Solar Blade  
+- Shadow Sneak  
 
-Torkoal @ Eject Pack  
-Ability: Drought  
+Armarouge @ Assault Vest  
+Ability: Flash Fire  
+Level: 31  
 Tera Type: Fire  
 IVs: 0 Atk  
-- Overheat  
+- Mystical Fire  
+- Psyshock  
 - Solar Beam  
-- Weather Ball  
-- Clear Smog  
+- Scorching Sands  
 
-Camerupt @ Fire Gem  
-Ability: Solid Rock  
-Tera Type: Fire  
-IVs: 0 Atk  
-- Heat Wave  
-- Earth Power  
-- Will-O-Wisp  
-- Solar Beam  
-
-
-Magcargo @ Shuca Berry  
-Ability: Flame Body  
-Tera Type: Fire  
-IVs: 0 Atk  
-- Shell Smash  
-- Flamethrower  
-- Earth Power  
-- Power Gem  
-
-Groudon @ Red Orb  
-Ability: Drought  
-Tera Type: Ground  
-- Precipice Blades  
-- Solar Beam  
-- Bulk Up  
-- Heat Crash  
 
 
 
@@ -5083,54 +5086,65 @@ Pic: Leader Norman
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Swellow @ Flame Orb  
+Ursaluna @ Flame Orb  
 Ability: Guts  
-Tera Type: Normal  
-- Protect  
-- Brave Bird  
+Level: 33  
+Tera Type: Ground  
 - Facade  
-- U-turn  
-
-Zangoose @ Toxic Orb  
-Ability: Toxic Boost  
-Tera Type: Normal  
+- Headlong Rush  
 - Protect  
-- Close Combat  
-- Double-Edge  
-- Knock Off  
+- Rock Slide  
 
-Farigiraf @ Throat Spray  
-Ability: Sap Sipper  
+Porygon2 @ Eviolite  
+Ability: Download  
+Level: 33  
 Tera Type: Normal  
 IVs: 0 Atk  
-- Psychic  
-- Hyper Voice  
+- Thunder Wave  
+- Trick Room  
+- Tri Attack  
 - Foul Play  
-- Thunderbolt  
 
-Dodrio @ Normal Gem  
-Ability: Early Bird  
+Farigiraf @ Sitrus Berry  
+Ability: Armor Tail  
+Level: 33  
 Tera Type: Normal  
-- Double-Edge  
-- Swords Dance  
-- Knock Off  
+IVs: 0 Atk  
+- Twin Beam  
+- Trick  
+- Hyper Voice  
+- Ally Switch  
 
-Delcatty @ Silk Scarf  
-Ability: Normalize  
+Kangaskhan @ Kangaskhanite  
+Ability: Scrappy  
+Level: 33  
 Tera Type: Normal  
 - Fake Out  
-- Last Resort  
+- Sucker Punch  
+- Body Slam  
+- Rock Tomb  
 
-Slaking @ Assault Vest  
-Ability: Truant  
+Maushold-Four @ Focus Sash  
+Ability: Friend Guard  
+Level: 33  
 Tera Type: Normal  
-- Double-Edge  
-- Earthquake  
-- Gunk Shot  
-- Hammer Arm  
+- Follow Me  
+- Helping Hand  
+- Super Fang  
+- Bullet Seed  
+
+Terapagos @ Leftovers  
+Ability: Tera Shift  
+Level: 33  
+Tera Type: Stellar  
+IVs: 15 Atk  
+- Tri Attack  
+- Thunderbolt  
+- Dazzling Gleam  
+- Earth Power  
 
 
 
