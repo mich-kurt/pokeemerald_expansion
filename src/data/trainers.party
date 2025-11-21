@@ -4595,48 +4595,58 @@ Double Battle: No
 AI: Basic Trainer / Force Setup First Turn
 Mugshot: Purple
 
-Shiftry @ Normal Gem  
-Ability: Wind Rider 
-- Explosion  
-- Leaf Blade  
-- Fake Out  
-- Knock Off  
-
-Sharpedo @ Water Gem  
-Ability: Speed Boost
-- Protect  
-- Liquidation  
-- Crunch  
+Urshifu @ Focus Sash  
+Ability: Unseen Fist  
+Level: 60  
+Tera Type: Fighting  
+- Wicked Blow  
+- Sucker Punch  
 - Close Combat  
+- Ice Punch  
 
-Crawdaunt @ Focus Sash  
-Ability: Adaptability 
+Incineroar @ Sitrus Berry  
+Ability: Intimidate  
+Level: 60  
+Tera Type: Fire  
+- Parting Shot  
 - Knock Off  
-- Aqua Jet  
-- Crabhammer  
+- Flare Blitz  
+- Bulk Up  
+
+Darkrai @ Dark Gem  
+Ability: Bad Dreams  
+Level: 60  
+Tera Type: Dark  
+IVs: 0 Atk  
+- Dark Pulse  
+- Calm Mind  
+- Sludge Bomb  
+- Ice Beam  
+
+Yveltal @ Assault Vest  
+Ability: Dark Aura  
+Level: 60  
+Tera Type: Dark  
+IVs: 0 Atk  
+- Oblivion Wing  
+- Snarl  
+- Psychic  
+- Hurricane  
+
+Gyarados @ Gyaradosite  
+Ability: Intimidate  
+Level: 60  
+Tera Type: Water  
+- Waterfall  
 - Dragon Dance  
-
-Cacturne @ Grass Gem  
-Ability: Water Absorb
-- Needle Arm  
-- Sucker Punch  
-- Swords Dance  
-- Drain Punch  
-
-Mightyena @ Dark Gem  
-Ability: Intimidate 
 - Crunch  
+- Earthquake  
+
+Kingambit @ Choice Band  
+Ability: Supreme Overlord  
+Level: 60  
+Tera Type: Dark  
 - Sucker Punch  
-- Fire Fang  
-- Ice Fang  
-
-Absol @ Absolite  
-Ability: Super Luck 
-- Close Combat  
-- Knock Off  
-- Double Team  
-- Play Rough  
-
 
 
 
@@ -4653,50 +4663,62 @@ AI: Basic Trainer
 Mugshot: Green
 
 
-Sableye @ Leftovers  
-Ability: Prankster
-- Fake Out  
-- Protect  
-- Toxic  
-- Recover  
-
-Dusclops @ Eviolite  
-Ability: Pressure 
-IVs: 0 Atk  
-- Double Team  
-- Toxic  
-- Disable  
-- Haze  
-
-Banette @ Banettite  
-Ability: Cursed Body
+Aegislash @ Life Orb  
+Ability: Stance Change  
+Level: 60  
+Tera Type: Steel  
+- King's Shield  
 - Shadow Sneak  
-- Poltergeist  
-- Knock Off  
-- Gunk Shot  
+- Shadow Ball  
+- Iron Head  
 
-Dusknoir @ Ghost Gem  
+Annihilape @ Fighting Gem  
+Ability: Defiant  
+Level: 60  
+Tera Type: Fighting  
+- Close Combat  
+- Rage Fist  
+- Bulk Up  
+- Earthquake  
+
+Dragapult @ Dragon Gem  
+Ability: Clear Body  
+Level: 60  
+Tera Type: Dragon  
+- Dragon Darts  
+- Draco Meteor  
+- U-turn  
+- Phantom Force  
+
+Giratina @ Leftovers  
 Ability: Pressure  
-- Ice Punch  
-- Shadow Punch  
-- Thunder Punch  
-- Fire Punch  
+Level: 60  
+Tera Type: Ghost  
+IVs: 0 Atk  
+- Protect  
+- Will-O-Wisp  
+- Hex  
+- Aura Sphere  
 
-Banette @ Life Orb  
+Gengar @ Gengarite  
 Ability: Cursed Body  
-- Knock Off  
-- Swords Dance  
-- Thunder Wave  
-- Poltergeist  
+Level: 60  
+Tera Type: Ghost  
+IVs: 0 Atk  
+- Sludge Wave  
+- Shadow Ball  
+- Energy Ball  
+- Nasty Plot  
 
-Shedinja @ Heavy-Duty Boots  
-Ability: Wonder Guard
-- Swords Dance  
-- Shadow Sneak  
-- X-Scissor  
-- Shadow Claw  
-
-
+Calyrex-Shadow @ Focus Sash  
+Ability: As One (Spectrier)  
+Level: 60  
+Tera Type: Psychic  
+IVs: 0 Atk  
+- Draining Kiss  
+- Astral Barrage  
+- Nasty Plot  
+- Psyshock  
 
 
 
