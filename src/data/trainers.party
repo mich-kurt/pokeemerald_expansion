@@ -5224,37 +5224,63 @@ Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: Yes
 AI: Basic Trainer
 
-Claydol
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Earthquake
-- Ancient Power
-- Psychic
-- Light Screen
+Indeedee @ Life Orb  
+Ability: Psychic Surge  
+Level: 45  
+Tera Type: Psychic  
+IVs: 0 Atk  
+- Expanding Force  
+- Hyper Voice  
+- Shadow Ball  
+- Draining Kiss  
 
-Xatu
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Psychic
-- Sunny Day
-- Confuse Ray
-- Calm Mind
+Indeedee-F @ Psychic Seed  
+Ability: Psychic Surge  
+Level: 45  
+Tera Type: Psychic  
+IVs: 0 Atk  
+- Follow Me  
+- Reflect  
+- Light Screen  
+- Psychic  
 
-Lunatone @ Sitrus Berry
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Psychic
-- Hypnosis
-- Calm Mind
+Slowking-Galar @ Psychic Gem  
+Ability: Curious Medicine  
+Level: 45  
+Tera Type: Poison  
+IVs: 0 Atk  
 
-Solrock @ Sitrus Berry
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
+Slowbro @ Leftovers  
+Ability: Oblivious  
+Level: 45  
+Tera Type: Water  
+IVs: 0 Atk  
+- Scald  
+- Psychic  
+- Yawn  
+- Icy Wind  
+
+Latias @ Latiasite  
+Ability: Levitate  
+Level: 45  
+Tera Type: Dragon  
+IVs: 0 Atk  
+- Mist Ball  
+- Recover  
+- Calm Mind  
+- Dragon Pulse  
+
+Latios @ Soul Dew  
+Ability: Levitate  
+Level: 45  
+Tera Type: Dragon  
+IVs: 0 Atk  
+- Luster Purge  
+- Calm Mind  
+- Ice Beam  
+- Thunderbolt  
+
+
 
 === TRAINER_JUAN_1 ===
 Name: JUAN
