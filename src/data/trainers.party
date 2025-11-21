@@ -5292,45 +5292,64 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Luvdisc
-Level: 41
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
+Primarina @ Throat Spray  
+Ability: Liquid Voice  
+Level: 51  
+Tera Type: Water  
+- Flip Turn  
+- Moonblast  
+- Hyper Voice  
+- Ice Beam  
 
-Whiscash
-Level: 41
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
-- Earthquake
+Florges  
+Ability: Flower Veil  
+Level: 51  
+Tera Type: Fairy  
+IVs: 0 Atk  
+- Synthesis  
+- Calm Mind  
+- Draining Kiss  
+- Psychic  
 
-Sealeo
-Level: 43
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Encore
-- Body Slam
-- Aurora Beam
-- Water Pulse
+Iron Valiant @ Booster Energy  
+Ability: Quark Drive  
+Level: 51  
+Tera Type: Fairy  
+- Psycho Cut  
+- Night Slash  
+- Leaf Blade  
+- Hypnosis  
 
-Crawdaunt
-Level: 43
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
+Gardevoir @ Gardevoirite  
+Ability: Trace  
+Level: 51  
+Tera Type: Psychic  
+IVs: 0 Atk  
+- Moonblast  
+- Mystical Fire  
+- Psychic  
+- Calm Mind  
 
-Kingdra @ Chesto Berry
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Pulse
-- Double Team
-- Ice Beam
-- Rest
+Magearna-Original @ White Herb  
+Ability: Soul-Heart  
+Level: 51  
+Tera Type: Steel  
+IVs: 0 Atk  
+- Fleur Cannon  
+- Calm Mind  
+- Thunderbolt  
+- Aura Sphere  
+
+Zacian-Crowned @ Rusted Sword  
+Ability: Intrepid Sword  
+Level: 51  
+Tera Type: Fairy  
+- Behemoth Blade  
+- Close Combat  
+- Play Rough  
+- Trailblaze  
+
+
 
 === TRAINER_JERRY_1 ===
 Name: JERRY
