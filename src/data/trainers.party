@@ -4718,7 +4718,7 @@ IVs: 0 Atk
 - Draining Kiss  
 - Astral Barrage  
 - Nasty Plot  
-- Psyshock  
+- Psyshock
 
 
 
@@ -4733,51 +4733,59 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Pink
 
-Froslass (F) @ Light Clay  
-Ability: Snow Cloak 
-IVs: 0 Atk  
-- Aurora Veil  
-- Blizzard  
-- Shadow Ball  
-- Thunder Wave  
-
-Walrein @ Leftovers  
-Ability: Ice Body  
-IVs: 0 Atk  
-- Frost Breath  
-- Surf  
-- Signal Beam  
-- Yawn  
-
-Glalie @ Glalitite  
-Ability: Inner Focus
-- Double-Edge  
-- Earthquake  
-- Ice Shard  
-- Trailblaze  
-
-Regice @ Sitrus Berry  
-Ability: Ice Body 
-IVs: 0 Atk  
-- Blizzard  
-- Counter  
-- Focus Blast  
-- Aurora Veil  
-
-Glalie @ Ice Gem  
-Ability: Moody  
-- Protect  
-- Blizzard  
+Darmanitan-Galar @ Choice Band  
+Ability: Gorilla Tactics  
+Level: 60  
+Tera Type: Ice  
 - Icicle Crash  
-- Substitute  
+- U-turn  
 
-Froslass (F) @ Bright Powder  
+Chien-Pao @ Focus Sash  
+Ability: Sword of Ruin  
+Level: 60  
+Tera Type: Dark  
+- Icicle Crash  
+- Ice Shard  
+- Sucker Punch  
+- Sacred Sword  
+
+Mamoswine @ Assault Vest  
+Ability: Thick Fat  
+Level: 60  
+Tera Type: Ice  
+- Earthquake  
+- Icicle Crash  
+- Ice Shard  
+- Knock Off  
+
+Articuno @ Bright Powder  
 Ability: Snow Cloak  
+Level: 60  
+Tera Type: Ice  
 IVs: 0 Atk  
-- Double Team  
-- Thunderbolt  
 - Blizzard  
-- Shadow Ball  
+- Roost  
+- Ancient Power  
+- Freeze-Dry  
+
+Baxcalibur @ Dragon Gem  
+Ability: Thermal Exchange  
+Level: 60  
+Tera Type: Dragon  
+- Dragon Dance  
+- Glaive Rush  
+- Ice Shard  
+- Icicle Crash  
+
+Calyrex-Ice @ Leftovers  
+Ability: As One (Glastrier)  
+Level: 60  
+Tera Type: Psychic  
+- Leech Seed  
+- Protect  
+- High Horsepower  
+- Glacial Lance  
+
 
 
 
