@@ -11305,17 +11305,61 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
-Level: 24
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Nidoking @ Black Sludge  
+Ability: Sheer Force  
+Level: 30  
+Tera Type: Poison  
+IVs: 0 Atk  
+- Earth Power  
+- Toxic  
+- Protect  
+- Toxic Spikes  
 
-Zubat
-Level: 24
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Houndoom @ Houndoominite  
+Ability: Flash Fire  
+Level: 30  
+Tera Type: Dark  
+- Fire Fang  
+- Bite  
+- Thunder Fang  
+- Will-O-Wisp  
 
-Camerupt
-Level: 25
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Primeape @ Eviolite  
+Ability: Defiant  
+Level: 30  
+Tera Type: Fighting  
+- Bulk Up  
+- Drain Punch  
+- Assurance  
+- Fire Punch  
+
+Lycanroc-Dusk @ Rock Gem  
+Ability: Tough Claws  
+Level: 30  
+Tera Type: Rock  
+- Accelerock  
+- Sucker Punch  
+- Rock Tomb  
+- Crush Claw  
+
+Brute Bonnet @ Leftovers  
+Ability: Protosynthesis  
+Level: 30  
+Tera Type: Grass  
+- Seed Bomb  
+- Synthesis  
+- Clear Smog  
+- Sunny Day  
+
+Scovillain @ Life Orb  
+Ability: Chlorophyll  
+Level: 30  
+Tera Type: Grass  
+- Flamethrower  
+- Zen Headbutt  
+- Leech Seed  
+- Protect  
+  
 
 === TRAINER_TIANA ===
 Name: TIANA
