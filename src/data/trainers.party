@@ -4788,9 +4788,6 @@ Tera Type: Psychic
 
 
 
-
-
-
 === TRAINER_DRAKE ===
 Name: DRAKE
 Class: Elite Four
@@ -4802,49 +4799,62 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Blue
 
-Latias (F) @ Focus Sash 
-Ability: Levitate
-IVs: 0 Atk  
-- Shadow Ball  
-- Draco Meteor  
-- Thunderbolt  
-- Mist Ball  
-
-Latios (M) @ Soul Dew  
-Ability: Levitate  
-IVs: 0 Atk  
-- Draco Meteor  
-- Ice Beam  
-- Energy Ball  
-- Luster Purge  
-
-Salamence @ Dragon Gem  
-Ability: Intimidate  
-- Draco Meteor  
-- Dragon Dance  
+Garchomp @ Focus Sash  
+Ability: Rough Skin  
+Level: 60  
+Tera Type: Dragon  
+- Earthquake  
 - Dragon Claw  
-- Rock Slide  
+- Poison Jab  
+- Stealth Rock  
 
-Rayquaza @ Life Orb  
+Regidrago @ Dragon Gem  
+Ability: Dragon's Maw  
+Level: 60  
+Tera Type: Dragon  
+- Dragon Claw  
+- Dragon Dance  
+- Draco Meteor  
+- Earthquake  
+
+Raging Bolt @ Booster Energy  
+Ability: Protosynthesis  
+Level: 60  
+Tera Type: Electric  
+IVs: 20 Atk  
+- Thunderclap  
+- Volt Switch  
+- Draco Meteor  
+- Calm Mind  
+
+Dragonite @ Life Orb  
+Ability: Multiscale  
+Level: 60  
+Tera Type: Dragon  
+- Dragon Dance  
+- Fire Punch  
+- Earthquake  
+- Dragon Claw  
+
+Salamence @ Salamencite  
+Ability: Intimidate  
+Level: 60  
+Tera Type: Dragon  
+- Double-Edge  
+- Draco Meteor  
+- Earthquake  
+- Crunch  
+
+Rayquaza @ Assault Vest  
 Ability: Air Lock  
+Level: 60  
+Tera Type: Dragon  
 - Dragon Ascent  
 - Extreme Speed  
-- Draco Meteor  
 - Earthquake  
+- Swords Dance  
 
-Kingdra @ Water Gem  
-Ability: Sniper  
-- Dragon Dance  
-- Draco Meteor  
-- Wave Crash  
-- Flip Turn  
-
-Flygon @ Ground Gem  
-Ability: Levitate 
-- Earthquake  
-- U-turn  
-- Power-Up Punch  
-- Draco Meteor  
+ 
 
 
 
