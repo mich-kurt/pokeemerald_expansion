@@ -6518,59 +6518,58 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Yellow
 
-Swampert @ Swampertite  
-Ability: Torrent 
+Suicune @ Leftovers  
+Ability: Pressure  
+Level: 60  
+Tera Type: Water  
+IVs: 0 Atk  
+- Rest  
+- Calm Mind  
+- Scald  
+- Ice Beam  
+
+Dracovish @ Choice Scarf  
+Ability: Strong Jaw  
+Level: 60  
+Tera Type: Water  
+- Fishious Rend  
+
+Urshifu-Rapid-Strike @ Focus Sash  
+Ability: Unseen Fist  
+Level: 60  
+Tera Type: Fighting  
+- Surging Strikes  
+- Close Combat  
+- U-turn  
+- Thunder Punch  
+
+Manaphy @ Sitrus Berry  
+Ability: Hydration  
+Level: 60  
+Tera Type: Water  
+IVs: 0 Atk  
+- Tail Glow  
+- Scald  
+- Energy Ball  
+- Alluring Voice  
+
+Palkia @ Lustrous Orb  
+Ability: Pressure  
+Level: 60  
+Tera Type: Water  
+- Draco Meteor  
+- Dragon Claw  
 - Liquidation  
 - Earthquake  
-- Bulk Up  
-- Flip Turn  
 
-
-Kingdra @ Water Gem  
-Ability: Swift Swim 
-- Wave Crash  
-- Dragon Dance  
-- Draco Meteor  
-- Flip Turn  
-
-
-Milotic @ Leftovers  
-Ability: Marvel Scale  
-Tera Type: Water  
-IVs: 0 Atk  
-- Scald  
-- Recover  
-- Alluring Voice  
-- Ice Beam  
-
-Starmie @ Life Orb  
-Ability: Analytic  
-Tera Type: Water  
-IVs: 0 Atk  
-- Scald  
-- Ice Beam  
-- Psychic  
-- Thunderbolt  
-
-Ludicolo @ Grass Gem  
+Basculegion @ Water Gem  
 Ability: Swift Swim  
+Level: 60  
 Tera Type: Water  
-- Giga Drain  
-- Weather Ball  
-- Ice Beam  
-- Fake Out  
-
-Kyogre @ Blue Orb  
-Ability: Drizzle  
-IVs: 0 Atk  
-- Origin Pulse  
-- Ice Beam  
-- Thunder  
-- Calm Mind  
-
-
-
-
+- Wave Crash  
+- Head Smash  
+- Last Respects  
+- Psychic Fangs  
 
 
 === TRAINER_ANDREW ===
