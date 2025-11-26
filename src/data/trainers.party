@@ -11279,21 +11279,66 @@ Class: Magma Leader
 Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
-Items: Super Potion / Super Potion
+Items: Mega Ring
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
-Level: 37
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Heatran @ Air Balloon  
+Ability: Flame Body  
+Level: 42  
+Tera Type: Fire  
+- Magma Storm  
+- Iron Head  
+- Crunch  
+- Ancient Power  
 
-Crobat
-Level: 38
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Pangoro @ Fighting Gem  
+Ability: Scrappy  
+Level: 42  
+Tera Type: Fighting  
+- Crunch  
+- Brick Break  
+- Bullet Punch  
+- Work Up  
 
-Camerupt
-Level: 39
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Tyrantrum @ Dragon Gem  
+Ability: Strong Jaw  
+Level: 42  
+Tera Type: Rock  
+- Dragon Claw  
+- Rock Tomb  
+- Dragon Tail  
+- Charm  
+
+Annihilape @ Leftovers  
+Ability: Defiant  
+Level: 42  
+Tera Type: Fighting  
+- Rage Fist  
+- Drain Punch  
+- Bulk Up  
+- Poison Jab  
+
+Houndoom @ Houndoominite  
+Ability: Unnerve  
+Level: 42  
+Tera Type: Dark  
+IVs: 0 Atk  
+- Nasty Plot  
+- Flamethrower  
+- Dark Pulse  
+- Shadow Ball  
+
+Brute Bonnet @ Booster Energy  
+Ability: Protosynthesis  
+Level: 42  
+Tera Type: Grass  
+- Close Combat  
+- Seed Bomb  
+- Stomping Tantrum  
+- Crunch  
+
+
 
 === TRAINER_MAXIE_MT_CHIMNEY ===
 Name: MAXIE
