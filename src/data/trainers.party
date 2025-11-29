@@ -6244,12 +6244,58 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Geodude
-Level: 10
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+Glimmet @ Black Sludge  
+Ability: Toxic Debris  
+Level: 15  
+Tera Type: Rock  
+IVs: 0 Atk  
+- Ancient Power  
+- Acid Spray  
+- Toxic  
+
+Tyrunt @ Oran Berry  
+Ability: Strong Jaw  
+Level: 15  
+Tera Type: Rock  
+- Rock Throw  
+- Charm  
+- Scale Shot  
+
+Carbink @ Shuca Berry  
+Ability: Clear Body  
+Level: 15  
+Tera Type: Rock  
+IVs: 0 Atk  
+- Body Press  
+
+Nosepass @ Berry Juice  
+Ability: Sturdy  
+Level: 15  
+Tera Type: Rock  
+- Thunder Wave  
+- Rollout  
+- Heavy Slam  
+
+Cranidos @ Fighting Gem  
+Ability: Mold Breaker  
+Level: 15  
+Tera Type: Rock  
+- Rock Smash  
+- Take Down  
+- Trailblaze  
+
+Shuckle @ Leftovers  
+Ability: Sturdy  
+Level: 15  
+Tera Type: Bug  
+IVs: 0 Atk  
+- Toxic  
+- Rest  
+- Protect  
+
+
 
 === TRAINER_TOMMY ===
 Name: TOMMY
