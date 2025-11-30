@@ -3603,15 +3603,66 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Slugma
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Magmortar @ Fire Gem  
+Ability: Vital Spirit  
+Level: 31  
+Tera Type: Fire  
+IVs: 0 Atk  
+- Flamethrower  
+- Will-O-Wisp  
+- Solar Beam  
+- Focus Blast  
 
-Slugma
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Arcanine @ Life Orb  
+Ability: Intimidate  
+Level: 31  
+Tera Type: Fire  
+- Flare Blitz  
+- Extreme Speed  
+- Howl  
+- Play Rough  
+
+Ninetales @ Sitrus Berry  
+Ability: Drought  
+Level: 31  
+Tera Type: Fire  
+IVs: 0 Atk  
+- Flamethrower  
+- Extrasensory  
+- Nasty Plot  
+- Hex  
+
+Torkoal @ White Herb  
+Ability: Drought  
+Level: 31  
+Tera Type: Fire  
+IVs: 0 Atk  
+- Solar Beam  
+- Overheat  
+- Ancient Power  
+- Body Press  
+
+Centiskorch @ Charti Berry  
+Ability: White Smoke  
+Level: 31  
+Tera Type: Fire  
+- Coil  
+- Knock Off  
+- Flame Wheel  
+- Bug Bite  
+
+Iron Moth @ Booster Energy  
+Ability: Quark Drive  
+Level: 31  
+Tera Type: Fire  
+IVs: 0 Atk  
+- Acid Spray  
+- Venoshock  
+- Psychic  
+- Flamethrower  
+
 
 === TRAINER_AXLE ===
 Name: AXLE
