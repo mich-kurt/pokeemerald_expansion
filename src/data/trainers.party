@@ -3363,20 +3363,60 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Electrike
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Quick Attack
-- Thunder Wave
-- Spark
-- Leer
+Zebstrika @ Shuca Berry  
+Ability: Lightning Rod  
+Level: 27  
+Tera Type: Electric  
+- Flame Charge  
+- Trailblaze  
+- Electro Ball  
 
-Voltorb
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Charge
-- Shock Wave
-- Screech
+Heliolisk @ Power Herb  
+Ability: Dry Skin  
+Level: 27  
+Tera Type: Electric  
+IVs: 0 Atk  
+- Parabolic Charge  
+- Solar Beam  
+
+Kilowattrel @ Flying Gem  
+Ability: Competitive  
+Level: 27  
+Tera Type: Electric  
+IVs: 0 Atk  
+- Roost  
+- Volt Switch  
+- Air Slash  
+- Charge Beam  
+
+Bellibolt @ Leftovers  
+Ability: Electromorphosis  
+Level: 27  
+Tera Type: Electric  
+IVs: 0 Atk  
+- Slack Off  
+- Mud Shot  
+- Parabolic Charge  
+- Muddy Water  
+
+Morpeko @ Dark Gem  
+Ability: Hunger Switch  
+Level: 27  
+Tera Type: Electric  
+- Aura Wheel  
+- Fake Out  
+- Super Fang  
+
+Togedemaru @ Air Balloon  
+Ability: Iron Barbs  
+Level: 27  
+Tera Type: Electric  
+- Nuzzle  
+- Spark  
+- Fell Stinger  
+- Steel Roller  
+
+
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
 Name: GRUNT
