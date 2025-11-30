@@ -8183,15 +8183,61 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Meditite
-Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Breloom @ Focus Sash  
+Ability: Effect Spore  
+Level: 20  
+Tera Type: Grass  
+- Spore  
+- Mach Punch  
+- Leech Seed  
+- Headbutt  
 
-Makuhita
-Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sneasel-Hisui @ Normal Gem  
+Ability: Inner Focus  
+Level: 20  
+Tera Type: Fighting  
+- Fake Out  
+- Rock Smash  
+- Metal Claw  
+- Quick Attack  
+
+Pignite @ Loaded Dice  
+Ability: Thick Fat  
+Level: 20  
+Tera Type: Fire  
+- Arm Thrust  
+- Flame Charge  
+- Smog  
+
+Sawk @ Fighting Gem  
+Ability: Sturdy  
+Level: 20  
+Tera Type: Fighting  
+- Low Sweep  
+- Mega Punch  
+- Mega Kick  
+- Focus Energy  
+
+Scraggy @ Eviolite  
+Ability: Moxie  
+Level: 20  
+Tera Type: Dark  
+- Power-Up Punch  
+- Rock Tomb  
+- Headbutt  
+
+Flamigo @ Flying Gem  
+Ability: Scrappy  
+Level: 20  
+Tera Type: Flying  
+- Wing Attack  
+- Low Kick  
+- Double Kick  
+- Focus Energy  
+
+
 
 === TRAINER_CORA ===
 Name: CORA
