@@ -1465,13 +1465,60 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Magneton
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Clodsire @ Black Sludge  
+Ability: Water Absorb  
+Level: 60  
+Tera Type: Poison  
+- Stealth Rock  
+- Toxic Spikes  
+- Sludge Wave  
+- Earthquake  
 
-Muk
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Garganacl @ Leftovers  
+Ability: Purifying Salt  
+Level: 60  
+Tera Type: Rock  
+- Substitute  
+- Salt Cure  
+- Recover  
+- Protect  
+
+Scream Tail @ Booster Energy  
+Ability: Protosynthesis  
+Level: 60  
+Tera Type: Fairy  
+- Bulk Up  
+- Psychic Fangs  
+- Drain Punch  
+- Play Rough  
+
+Gouging Fire @ Fire Gem  
+Ability: Protosynthesis  
+Level: 60  
+Tera Type: Fire  
+- Burning Bulwark  
+- Flare Blitz  
+- Breaking Swipe  
+- Dragon Dance  
+
+Aegislash @ Life Orb  
+Ability: Stance Change  
+Level: 60  
+Tera Type: Steel  
+- Shadow Sneak  
+- Shadow Ball  
+- Iron Head  
+- King's Shield  
+
+Meloetta @ Normal Gem  
+Ability: Serene Grace  
+Level: 60  
+Tera Type: Normal  
+- Body Slam  
+- Relic Song  
+- Close Combat  
+- Zen Headbutt  
+
 
 === TRAINER_SAMUEL ===
 Name: SAMUEL
@@ -12714,49 +12761,65 @@ Class: Rival
 Pic: Wally
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore
+Items: 
 Double Battle: No
 AI: Basic Trainer
 
-Altaria
-Level: 50
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Aerial Ace
-- Safeguard
-- Dragon Breath
-- Dragon Dance
+Roserade @ Focus Sash  
+Ability: Poison Point  
+Level: 60  
+Tera Type: Grass  
+IVs: 0 Atk  
+- Toxic Spikes  
+- Sludge Bomb  
+- Giga Drain  
+- Sleep Powder  
 
-Delcatty
-Level: 49
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Sing
-- Assist
-- Charm
-- Feint Attack
+Gallade @ Life Orb  
+Ability: Sharpness  
+Level: 60  
+Tera Type: Psychic  
+- Aqua Cutter  
+- Leaf Blade  
+- Sacred Sword  
+- Psycho Cut  
 
-Roselia
-Level: 50
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Magical Leaf
-- Leech Seed
-- Giga Drain
-- Toxic
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+Level: 60  
+Tera Type: Steel  
+- Iron Head  
+- Zen Headbutt  
+- U-turn  
+- Wish  
 
-Magneton
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Supersonic
-- Thunderbolt
-- Tri Attack
-- Screech
+Porygon-Z @ Normal Gem  
+Ability: Adaptability  
+Level: 60  
+Tera Type: Normal  
+IVs: 0 Atk  
+- Tri Attack  
+- Ice Beam  
+- Thunderbolt  
+- Nasty Plot  
 
-Gardevoir
-Level: 51
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Team
-- Calm Mind
-- Psychic
-- Future Sight
+Diancie @ Diancite  
+Ability: Clear Body  
+Level: 60  
+Tera Type: Rock  
+- Moonblast  
+- Diamond Storm  
+- Substitute  
+- Earth Power  
+
+Meowscarada @ Grass Gem  
+Ability: Protean  
+Level: 60  
+Tera Type: Grass  
+- Flower Trick  
+- U-turn  
+- Knock Off  
+- Triple Axel  
 
 === TRAINER_WALLY_VR_4 ===
 Name: WALLY
