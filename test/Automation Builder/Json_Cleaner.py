@@ -99,6 +99,7 @@ def pokedex_cleaner():
                             & ('Necrozma-Dawn-Wings' != pokedex_df['Name'])
                             & ('Zamazenta-Crowned' != pokedex_df['Name'])
                             & ('Zacian-Crowned' != pokedex_df['Name'])
+                            & ('Necrozma-Dusk-Mane' != pokedex_df['Name'])
                             ]
     pokedex_df = pokedex_df.drop(columns= ['name_key','pokemon'])
     return pokedex_df
