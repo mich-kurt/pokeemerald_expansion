@@ -18,11 +18,9 @@ with open(r'test\Automation Builder\learnsets.json', 'r') as f:
     learnsets_json = json.load(f)
 
 
-with open(r'test\Automation Builder\wild_encounters.json', 'r') as f:
-    encounter_json = json.load(f)
 
 
-#print(encounter_json['wild_encounter_groups'][0]['encounters'])
+
 
 
 def move_cleaner():
@@ -49,8 +47,6 @@ def move_cleaner():
     moves_df = moves_df[moves_df['num'] > 0]
     return moves_df
 
-#x= move_cleaner()
-#print(x.loc[x['name']=='Future Sight'])
 def learnset_cleaner():
     learnsets_df = pd.DataFrame()
     learnsets_df['pokemon'] = [i for i in learnsets_json]
@@ -107,7 +103,7 @@ def pokedex_cleaner():
 def trainer_cleaner():
     with open(r'test\Automation Builder\Emerald_Trainers.txt', 'r') as fh:
         trainer_txt = fh.read()
-    trainer_txt = trainer_txt.split('/*Comments can also be on a single line*/')[1][3:]
+    #trainer_txt = trainer_txt.split('/*Comments can also be on a single line*/')[1][3:]
     trainers = re.split(r'\n===', trainer_txt)
     trainer_name = [i.split("===")[0].strip() for i in trainers][1:]
 
@@ -159,10 +155,17 @@ def trainer_cleaner():
     return trainer_data
 
 
+
+with open(r"test/Automation Builder/wild_encounters.json",'r') as f:
+    encounter_json = json.load(f)
+
 pokedex_data = pokedex_cleaner()
 def encounter_creator():
+    removed_mons = ['Shedinja','Farfetch’d','Farfetch’d-Galar','Mr. Rime','Mime Jr.','Flabébé','Rockruff-Dusk','Mr. Mime','Mr. Mime-Galar','Sirfetch’d']
+    pokedex_data = pokedex_cleaner()
+    pokedex_data = pokedex_data[~pokedex_data['Name'].isin(removed_mons)]
+    pokedex_data['Name'] = [i.replace(" ","-") for i in pokedex_data['Name']]
     for index,item in enumerate(encounter_json['wild_encounter_groups'][0]['encounters']):
-            #print(item.keys())
             if 'land_mons' in item.keys():
                 #print("land")
                 for index2,items in enumerate(item['land_mons']['mons']):
@@ -202,5 +205,6 @@ def encounter_creator():
                     replace_mon = "SPECIES_" + encounter_pool['Name'][0].replace("-","_").upper()
                     #print(encounter_json['wild_encounter_groups'][0]['encounters'][index]['fishing_mons']['mons'][index3]['species'], replace_mon)
                     encounter_json['wild_encounter_groups'][0]['encounters'][index]['fishing_mons']['mons'][index4]['species'] = replace_mon
-    print(encounter_json)
 
+    with open(r"src\data\wild_encounters.json", "w") as q:
+            json.dump(encounter_json,q,indent=4)

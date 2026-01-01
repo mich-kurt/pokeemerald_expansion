@@ -39,14 +39,13 @@ def pokemon_specific_points(moves_data,pokemon,pokemon_data):
         else:
             continue
     pokemon_altered_moves = moves_data.copy()
-    pokemon_altered_moves['Level Groups'] = [3 if i >= 6 else 2 if i >= 4 else 1 if i > 2 else 0 for i in pokemon_altered_moves['Points']]
-
+    pokemon_altered_moves['EarlyGameMove'] = [1 if i <= 7 else 0 for i in pokemon_altered_moves['Points']]
+    
     if len(pokemon_altered_moves) < 4:
-        print("GOT HERE",pokemon_altered_moves,pokemon_info['Name'])
+        print("GOT HERE")
     return pokemon_altered_moves
 
 def assigning_4_moves(pokemon_altered_moves):
-
     status_moves = pokemon_altered_moves[pokemon_altered_moves['category'] == 'Status']
     status_moves = status_moves[status_moves['Points'] == max(status_moves['Points'])]
     status_moves = list(status_moves['name'])

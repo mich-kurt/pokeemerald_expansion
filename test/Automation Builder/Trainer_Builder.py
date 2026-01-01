@@ -5,12 +5,15 @@ import random
 import pandas as pd
 import numpy as np
 def Trainer_Format():
+    print("To Format")
     moves = base_points(move_cleaner())
     pokedex = pokedex_cleaner()
     teams = random_teams()
 
-    with open(r"test\Automation Builder\trainers_output.txt", "w", encoding="utf-8") as f:
+    with open(r"src\data\trainers.party", "w", encoding="utf-8") as f:
         for index, col in teams.iterrows():
+            if len(col['Pokemon']) != 6:
+                print(len(col['Pokemon']))
             first = True
             for j in col['Pokemon']:
                 finalized_moves = assigning_4_moves(
@@ -45,6 +48,5 @@ def Trainer_Format():
                     f"-{finalized_moves[2]}\n"
                     f"-{finalized_moves[3]}\n\n"
                 )
-
 
 
