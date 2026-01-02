@@ -9,15 +9,15 @@ u32 GetCurrentLevelCap(void)
 {
     static const u32 sLevelCapFlagMap[][2] =
     {
-        {FLAG_BADGE01_GET, 16},
+        {FLAG_BADGE01_GET, 15},
         {FLAG_BADGE02_GET, 20},
-        {FLAG_BADGE03_GET, 25},
-        {FLAG_BADGE04_GET, 35},
-        {FLAG_BADGE05_GET, 37},
-        {FLAG_BADGE06_GET, 42},
-        {FLAG_BADGE07_GET, 55},
-        {FLAG_BADGE08_GET, 60},
-        {FLAG_IS_CHAMPION, 70},
+        {FLAG_BADGE03_GET, 27},
+        {FLAG_BADGE04_GET, 33},
+        {FLAG_BADGE05_GET, 36},
+        {FLAG_BADGE06_GET, 38},
+        {FLAG_BADGE07_GET, 45},
+        {FLAG_BADGE08_GET, 51},
+        {FLAG_IS_CHAMPION, 60},
     };
 
     u32 i;
@@ -87,15 +87,15 @@ u32 GetCurrentEVCap(void)
 
     static const u16 sEvCapFlagMap[][2] = {
         // Define EV caps for each milestone
-        {FLAG_BADGE01_GET, 30},
-        {FLAG_BADGE02_GET, 90},
-        {FLAG_BADGE03_GET, 150},
-        {FLAG_BADGE04_GET, 210},
-        {FLAG_BADGE05_GET, 270},
-        {FLAG_BADGE06_GET, 330},
-        {FLAG_BADGE07_GET, 390},
-        {FLAG_BADGE08_GET, 450},
-        {FLAG_IS_CHAMPION, MAX_TOTAL_EVS},
+        {FLAG_BADGE01_GET, 0},
+        {FLAG_BADGE02_GET, 0},
+        {FLAG_BADGE03_GET, 0},
+        {FLAG_BADGE04_GET, 0},
+        {FLAG_BADGE05_GET, 0},
+        {FLAG_BADGE06_GET, 0},
+        {FLAG_BADGE07_GET, 0},
+        {FLAG_BADGE08_GET, 0},
+        {FLAG_IS_CHAMPION, 0},
     };
 
     if (B_EV_CAP_TYPE == EV_CAP_FLAG_LIST)
