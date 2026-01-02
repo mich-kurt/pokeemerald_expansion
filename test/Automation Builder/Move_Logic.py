@@ -39,7 +39,7 @@ def pokemon_specific_points(moves_data,pokemon,pokemon_data):
         else:
             continue
     pokemon_altered_moves = moves_data.copy()
-    pokemon_altered_moves['EarlyGameMove'] = [1 if i <= 7 else 0 for i in pokemon_altered_moves['Points']]
+    pokemon_altered_moves['EarlyGameMove'] = [1 if i <= 6 else 0 for i in pokemon_altered_moves['Points']]
     #OR statement that determines either a move as early game, or the pokemon is above 450 bst. In case where above 450, the first condition does not matter and is ignored
     pokemon_altered_moves = pokemon_altered_moves[(pokemon_altered_moves['EarlyGameMove'] == 1) | 
                                                   (pokemon_info['bst'][0] >= 450)]
