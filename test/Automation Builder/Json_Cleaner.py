@@ -139,7 +139,8 @@ def trainer_cleaner():
                     "TATE_AND_LIZA" : 'Psychic',
                     'MAXIE' : 'Fire|Ground|Rock', "MAGMA" :'Fire|Ground|Rock',
                     'ARCHIE':'Water|Dark|Poison', 'AQUA' : 'Water|Dark|Poison',
-                    "SIDNEY" : 'Dark', "GLACIA" : 'Ice','DRAKE' : 'Dragon', "PHOEBE" : 'Ghost','WALLACE' : 'Water'
+                    "SIDNEY" : 'Dark', "GLACIA" : 'Ice','DRAKE' : 'Dragon', "PHOEBE" : 'Ghost','WALLACE' : 'Water',
+                    "TABITHA":'Fire|Ground|Rock', "SHELLY" : "Water|Dark|Poison"
                     }
     for i in trainer_dict:
         for index,col in trainer_data.iterrows():

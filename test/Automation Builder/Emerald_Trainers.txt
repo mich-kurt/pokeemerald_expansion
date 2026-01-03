@@ -30285,7 +30285,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Growlithe
-Level: 5
+Level: 1
 IVs: 17 HP / 6 Atk / 3 Def / 12 SpA / 25 SpD / 12 Spe
 -Tera Blast
 -Outrage
@@ -30293,7 +30293,7 @@ IVs: 17 HP / 6 Atk / 3 Def / 12 SpA / 25 SpD / 12 Spe
 -Scary Face
 
 Lileep
-Level: 5
+Level: 1
 IVs: 12 HP / 23 Atk / 2 Def / 2 SpA / 5 SpD / 4 Spe
 -Ancient Power
 -Energy Ball
@@ -30301,7 +30301,7 @@ IVs: 12 HP / 23 Atk / 2 Def / 2 SpA / 5 SpD / 4 Spe
 -Rock Polish
 
 Nidorina
-Level: 5
+Level: 1
 IVs: 10 HP / 20 Atk / 13 Def / 3 SpA / 25 SpD / 2 Spe
 -Double-Edge
 -Crunch
@@ -30309,7 +30309,7 @@ IVs: 10 HP / 20 Atk / 13 Def / 3 SpA / 25 SpD / 2 Spe
 -Hone Claws
 
 Cranidos
-Level: 5
+Level: 1
 IVs: 6 HP / 5 Atk / 8 Def / 18 SpA / 27 SpD / 22 Spe
 -Superpower
 -Stone Edge
@@ -30317,7 +30317,7 @@ IVs: 6 HP / 5 Atk / 8 Def / 18 SpA / 27 SpD / 22 Spe
 -Swords Dance
 
 Floette
-Level: 5
+Level: 1
 IVs: 24 HP / 31 Atk / 2 Def / 14 SpA / 11 SpD / 20 Spe
 -Pollen Puff
 -Tera Blast
@@ -30325,7 +30325,7 @@ IVs: 24 HP / 31 Atk / 2 Def / 14 SpA / 11 SpD / 20 Spe
 -Calm Mind
 
 Palpitoad
-Level: 5
+Level: 1
 IVs: 17 HP / 22 Atk / 23 Def / 14 SpA / 4 SpD / 13 Spe
 -Uproar
 -Sludge Wave
@@ -30459,7 +30459,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Ledian
-Level: 5
+Level: 1
 IVs: 13 HP / 23 Atk / 22 Def / 2 SpA / 20 SpD / 24 Spe
 -Uproar
 -Air Cutter
@@ -30467,7 +30467,7 @@ IVs: 13 HP / 23 Atk / 22 Def / 2 SpA / 20 SpD / 24 Spe
 -Swords Dance
 
 Kabuto
-Level: 5
+Level: 1
 IVs: 17 HP / 12 Atk / 26 Def / 13 SpA / 16 SpD / 7 Spe
 -Double-Edge
 -Liquidation
@@ -30475,7 +30475,7 @@ IVs: 17 HP / 12 Atk / 26 Def / 13 SpA / 16 SpD / 7 Spe
 -Hone Claws
 
 Growlithe
-Level: 5
+Level: 1
 IVs: 22 HP / 24 Atk / 1 Def / 3 SpA / 22 SpD / 7 Spe
 -Burn Up
 -Tera Blast
@@ -30483,7 +30483,7 @@ IVs: 22 HP / 24 Atk / 1 Def / 3 SpA / 22 SpD / 7 Spe
 -Charm
 
 Vullaby
-Level: 5
+Level: 1
 IVs: 2 HP / 30 Atk / 15 Def / 6 SpA / 31 SpD / 17 Spe
 -U-turn
 -Foul Play
@@ -30491,7 +30491,7 @@ IVs: 2 HP / 30 Atk / 15 Def / 6 SpA / 31 SpD / 17 Spe
 -Nasty Plot
 
 Onix
-Level: 5
+Level: 1
 IVs: 16 HP / 16 Atk / 28 Def / 16 SpA / 13 SpD / 1 Spe
 -Iron Head
 -Head Smash
@@ -30499,7 +30499,7 @@ IVs: 16 HP / 16 Atk / 28 Def / 16 SpA / 13 SpD / 1 Spe
 -Rock Polish
 
 Wailmer
-Level: 5
+Level: 1
 IVs: 18 HP / 12 Atk / 14 Def / 7 SpA / 7 SpD / 14 Spe
 -Earthquake
 -Water Spout
@@ -30633,7 +30633,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Farfetch’d-Galar
-Level: 5
+Level: 1
 IVs: 8 HP / 4 Atk / 26 Def / 24 SpA / 6 SpD / 12 Spe
 -Superpower
 -Brave Bird
@@ -30641,7 +30641,7 @@ IVs: 8 HP / 4 Atk / 26 Def / 24 SpA / 6 SpD / 12 Spe
 -Swords Dance
 
 Lickitung
-Level: 5
+Level: 1
 IVs: 4 HP / 10 Atk / 13 Def / 19 SpA / 27 SpD / 25 Spe
 -Hydro Pump
 -Fire Blast
@@ -30649,7 +30649,7 @@ IVs: 4 HP / 10 Atk / 13 Def / 19 SpA / 27 SpD / 25 Spe
 -Swords Dance
 
 Boldore
-Level: 5
+Level: 1
 IVs: 20 HP / 7 Atk / 3 Def / 2 SpA / 4 SpD / 16 Spe
 -Earthquake
 -Explosion
@@ -30657,7 +30657,7 @@ IVs: 20 HP / 7 Atk / 3 Def / 2 SpA / 4 SpD / 16 Spe
 -Rock Polish
 
 Dustox
-Level: 5
+Level: 1
 IVs: 27 HP / 8 Atk / 25 Def / 20 SpA / 23 SpD / 8 Spe
 -Energy Ball
 -Sludge Bomb
@@ -30665,7 +30665,7 @@ IVs: 27 HP / 8 Atk / 25 Def / 20 SpA / 23 SpD / 8 Spe
 -Quiver Dance
 
 Espurr
-Level: 5
+Level: 1
 IVs: 4 HP / 9 Atk / 31 Def / 1 SpA / 21 SpD / 4 Spe
 -Psychic
 -Thunderbolt
@@ -30673,7 +30673,7 @@ IVs: 4 HP / 9 Atk / 31 Def / 1 SpA / 21 SpD / 4 Spe
 -Calm Mind
 
 Lileep
-Level: 5
+Level: 1
 IVs: 5 HP / 9 Atk / 11 Def / 10 SpA / 30 SpD / 9 Spe
 -Earth Power
 -Energy Ball
@@ -30807,7 +30807,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Anorith
-Level: 5
+Level: 1
 IVs: 21 HP / 24 Atk / 11 Def / 23 SpA / 24 SpD / 22 Spe
 -Rock Slide
 -Double-Edge
@@ -30815,7 +30815,7 @@ IVs: 21 HP / 24 Atk / 11 Def / 23 SpA / 24 SpD / 22 Spe
 -Hone Claws
 
 Growlithe
-Level: 5
+Level: 1
 IVs: 24 HP / 25 Atk / 16 Def / 28 SpA / 25 SpD / 30 Spe
 -Close Combat
 -Outrage
@@ -30823,7 +30823,7 @@ IVs: 24 HP / 25 Atk / 16 Def / 28 SpA / 25 SpD / 30 Spe
 -Captivate
 
 Tirtouga
-Level: 5
+Level: 1
 IVs: 5 HP / 19 Atk / 30 Def / 19 SpA / 14 SpD / 6 Spe
 -Crunch
 -Earthquake
@@ -30831,7 +30831,7 @@ IVs: 5 HP / 19 Atk / 30 Def / 19 SpA / 14 SpD / 6 Spe
 -Rock Polish
 
 Lampent
-Level: 5
+Level: 1
 IVs: 30 HP / 14 Atk / 2 Def / 31 SpA / 6 SpD / 20 Spe
 -Overheat
 -Psychic
@@ -30839,7 +30839,7 @@ IVs: 30 HP / 14 Atk / 2 Def / 31 SpA / 6 SpD / 20 Spe
 -Minimize
 
 Graveler
-Level: 5
+Level: 1
 IVs: 25 HP / 22 Atk / 18 Def / 17 SpA / 6 SpD / 22 Spe
 -Superpower
 -Self-Destruct
@@ -30847,7 +30847,7 @@ IVs: 25 HP / 22 Atk / 18 Def / 17 SpA / 6 SpD / 22 Spe
 -Rock Polish
 
 Charjabug
-Level: 5
+Level: 1
 IVs: 24 HP / 10 Atk / 30 Def / 1 SpA / 25 SpD / 11 Spe
 -X-Scissor
 -Wild Charge
@@ -30981,7 +30981,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Lileep
-Level: 5
+Level: 1
 IVs: 6 HP / 23 Atk / 30 Def / 4 SpA / 27 SpD / 23 Spe
 -Ancient Power
 -Energy Ball
@@ -30989,7 +30989,7 @@ IVs: 6 HP / 23 Atk / 30 Def / 4 SpA / 27 SpD / 23 Spe
 -Swords Dance
 
 Sableye
-Level: 5
+Level: 1
 IVs: 10 HP / 6 Atk / 28 Def / 16 SpA / 3 SpD / 1 Spe
 -Throat Chop
 -Double-Edge
@@ -30997,7 +30997,7 @@ IVs: 10 HP / 6 Atk / 28 Def / 16 SpA / 3 SpD / 1 Spe
 -Bulk Up
 
 Weepinbell
-Level: 5
+Level: 1
 IVs: 14 HP / 26 Atk / 22 Def / 10 SpA / 12 SpD / 29 Spe
 -Double-Edge
 -Power Whip
@@ -31005,7 +31005,7 @@ IVs: 14 HP / 26 Atk / 22 Def / 10 SpA / 12 SpD / 29 Spe
 -Sleep Powder
 
 Gothorita
-Level: 5
+Level: 1
 IVs: 13 HP / 18 Atk / 10 Def / 4 SpA / 15 SpD / 15 Spe
 -Shadow Ball
 -Psychic
@@ -31013,7 +31013,7 @@ IVs: 13 HP / 18 Atk / 10 Def / 4 SpA / 15 SpD / 15 Spe
 -Nasty Plot
 
 Trumbeak
-Level: 5
+Level: 1
 IVs: 10 HP / 8 Atk / 22 Def / 24 SpA / 14 SpD / 2 Spe
 -Brave Bird
 -Gunk Shot
@@ -31021,7 +31021,7 @@ IVs: 10 HP / 8 Atk / 22 Def / 24 SpA / 14 SpD / 2 Spe
 -Swords Dance
 
 Swadloon
-Level: 5
+Level: 1
 IVs: 3 HP / 18 Atk / 8 Def / 20 SpA / 12 SpD / 2 Spe
 -Lunge
 -Take Down
